@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    max-height: 30px;
+
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+    
+  }
+  .header__right >h4 {
+    margin-left: 10px;
+  }
+  
+  .header__left {
+    flex: 0.5;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    align-items: center;
+    /* min-width: 80px; */
+    max-width: 250px;
+    margin-right: 20px;
+   
+
+  }
+  
+  .header__left > input {
+    border: none;
+    width: 100%;
+  }
+  .header__left > input:focus {
+    border: none;
+   
+  }
+  
+  .header__right > h4 {
+    margin-left: 10px;
+  }
